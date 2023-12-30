@@ -1,0 +1,21 @@
+[project]
+name = "porkbunpy"
+version = "0.1.0"
+authors = [
+  { name="subwoofer", email="cakepancakeuwu@gmail.com"},
+]
+description = "A library to interact with the porkbun v3 api"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: AGPL License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://git.gockandgum.party/cake/porkbun-py"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
